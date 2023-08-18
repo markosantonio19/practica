@@ -14,5 +14,7 @@ public class Mavenproject3 {
 
     public static void main(String[] args) {
         Scanner order = new Scanner(System.in);
+        
+        System.out.println("ORDENAMIENTO DE NUMEROS");
     }
 }
