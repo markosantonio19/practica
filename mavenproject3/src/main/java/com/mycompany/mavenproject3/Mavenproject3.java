@@ -4,6 +4,8 @@
 
 package com.mycompany.mavenproject3;
 
+import java.util.Scanner;
+
 /**
  *
  * @author Alumno
@@ -11,6 +13,6 @@ package com.mycompany.mavenproject3;
 public class Mavenproject3 {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        Scanner order = new Scanner(System.in);
     }
 }
