@@ -36,4 +36,11 @@ public class Mavenproject3 {
                     numeros[j + 1] = temp;}
     }
 }
-    }
+        
+        //imprimer todo los numeros ordenados
+        System.out.println("lista ordenada");
+        for (int numero : numeros){
+            System.out.println(numero+ "    ");
+        }
+        
+    }}
