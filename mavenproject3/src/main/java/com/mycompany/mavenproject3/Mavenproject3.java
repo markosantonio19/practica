@@ -19,5 +19,9 @@ public class Mavenproject3 {
         
         int[] numeros = new int[5]; 
         System.out.println("INGRESE 5 NUMEROS AL AZAR");
+        
+        for (int i = 0; i < 5; i++) {
+            System.out.print("Ingrese el número #" + (i + 1) + ": ");
+            numeros[i] = order.nextInt();}
     }
 }
